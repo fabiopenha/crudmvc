@@ -1,0 +1,172 @@
+table {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+table, th, tr > tr > td {
+    border: 1px solid #ff555d;
+    border-collapse: collapse;
+}
+
+
+table th{
+    font-family: "Roboto-Medium";
+    text-align: center;
+}
+
+table th {
+    width: 100px;
+    height: 40px;
+    border-bottom: 1px solid #ff555d;
+}
+
+table tr td {
+    font-family: "Roboto-Regular";
+    text-align: center;
+}
+
+table tr {
+    width: 100px;
+    height: 40px;
+}
+
+/*Seletor de Elementos*/
+
+table tr:nth-child(2n){
+    background-color: #ff555d;
+}
+
+table tr:hover > td {
+    background-color: #ff555dbd ;
+    color: #f2f2f2;
+    font-weight: 700;
+}
+
+.container-table table tfoot{
+    width: 100px;
+    height: 40px;
+    border-bottom: 1px solid #ff555d;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Roboto-Regular";
+}
+
+.container-tbl {
+    display: flex;
+    justify-content: center;
+}
+
+.container-tbl a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td .btn-edit {
+    width: 100%;
+    height: 100%;
+    padding: 5px 15px;
+    color: seashell;
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+td .btn-del {
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    color: seashell;
+    background-color: rgba(255, 0, 0, 0.801);
+}
+
+#newuser {
+    width: 100%;
+    height: 100%;
+    padding: 0px 5px 2px;
+    background-color: rgb(223, 224, 224);
+    text-decoration: none;
+    color: black;
+}
+
+#newuser:hover {
+    width: 100%;
+    height: 100%;
+    padding: 0px 5px 2px;
+    background-color: rgb(223, 224, 224);
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+footer p{
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+
+/*adicionar novo usuário*/
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-add{
+    width: 340px;
+    height: 251px;;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:#ff555d;
+}
+.container-add h2{
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form input {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form .btn-form{
+    margin-top: 10px;
+    background-color: #c5c5c5;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+form .btn-form:hover{
+    background-color: #b9b8b8;
+}
+
+
+
